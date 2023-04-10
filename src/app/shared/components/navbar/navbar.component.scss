@@ -1,0 +1,25 @@
+.logo img{
+  width: 3rem;
+  height: 3rem;
+}
+
+.button-links {
+  display: inline-flex;
+  padding: 0.5em 0.5em;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+  transform: skewX(-5deg);
+  border: 0.1rem solid rgba(255, 255, 255, 0.35);
+
+  transition: all 0.3s;
+}
+.button-links:hover{
+  background-color: hsla(347, 100%, 50%, 0.35);
+}
+
+.button-links img{
+  width: 1.5rem;
+}
