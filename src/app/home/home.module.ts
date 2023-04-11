@@ -10,6 +10,7 @@ import { WishListComponent } from './wish-list/wish-list.component';
 import { LoginComponent } from './login/login.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './home.component';
+import { RegionComponent } from './region/region.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HomeComponent } from './home.component';
     ContactUsComponent,
     WishListComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    RegionComponent
   ],
   imports: [
     RouterModule,

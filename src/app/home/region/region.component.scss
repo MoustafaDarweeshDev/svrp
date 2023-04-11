@@ -1,0 +1,46 @@
+.region-card{
+  cursor: pointer;
+  width: fit-content;
+  background: radial-gradient(67.55% 87.79% at 48.2% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(62, 82, 106, 0.5), rgba(62, 82, 106, 0.5)), rgba(0, 0, 0, 0.65);
+  outline: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding: 2rem;
+  margin-inline: auto;
+  margin-top: var(--size-500);
+  transform: skewX(-5deg);
+  margin: auto;
+  min-height: 30vh;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+img{
+  max-width: 10rem;
+  transition: all 0.3s;
+}
+
+.region-card:hover{
+  outline: 4px solid rgba(255, 255, 255, 0.35);
+}
+
+.region-card:hover img{
+  transform: scale(0.9);
+}
+.donater-whitelist {
+  text-decoration: none;
+  color: #FFA800;
+  background: radial-gradient(67.55% 87.79% at 48.2% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), rgba(0, 0, 0, 0.65);
+  outline: 1px solid #FFA800;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.35);
+  border-width: 1px;
+}
+
+.donater-whitelist:hover {
+  outline: 4px solid #FFA800;
+}
+.header{ font-size: 4rem;}
+@media only screen and (max-width: 1000px) {
+  .header{ font-size: 3rem;}
+
+}

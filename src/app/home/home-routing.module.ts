@@ -5,6 +5,7 @@ import { MainComponent } from './main/main.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LoginComponent } from './login/login.component';
 import { WishListComponent } from './wish-list/wish-list.component';
+import { RegionComponent } from './region/region.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,8 @@ const routes: Routes = [
       {path:'' , pathMatch:'full',component:MainComponent},
       {path:'contact-us' , component:ContactUsComponent},
       {path:'login' , component:LoginComponent},
-      {path:'wishlist' , component:WishListComponent}
+      {path:'wishlist' , component:WishListComponent},
+      {path:'region' , component:RegionComponent}
     ]
   }
 ];
