@@ -10,7 +10,10 @@ import { WishListComponent } from './wish-list/wish-list.component';
 import { LoginComponent } from './login/login.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './home.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { HomeComponent } from './home.component';
     CommonModule,
     HomeRoutingModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    NgbModule,
+    HttpClientModule,
+    TranslateModule
   ]
 })
 export class HomeModule { }

@@ -3,8 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
+import { HttpLoaderFactory, SharedModule } from './shared/shared.module';
 import { HomeModule } from './home/home.module';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,14 @@ import { HomeModule } from './home/home.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    HomeModule
+    HomeModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

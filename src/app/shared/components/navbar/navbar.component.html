@@ -32,22 +32,22 @@
             routerLinkActive="active"
             routerLink="/"
             [routerLinkActiveOptions]="{ exact: true }"
-            >Home</a
+            >{{'NavBar.Home' | translate }}</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLinkActive="active" routerLink="/contact-us"
-            >contact us</a
+            >{{'NavBar.ContactUs' | translate }}</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLinkActive="active" routerLink="/wishlist"
-            >apply for wish list</a
+            >{{'NavBar.ApplyWhitelist' | translate }}</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLinkActive="active" routerLink="/login"
-            >login</a
+            >{{'NavBar.Login' | translate }}</a
           >
         </li>
         <li>
@@ -66,10 +66,18 @@
                 <li>
                   <a
                     target="_blank"
+                    href="https://discord.gg/KgcFqX9RMV"
+                    class="dropdown-item"
+                    >arabia </a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    target="_blank"
                     href="https://discord.gg/subversion"
                     class="dropdown-item"
-                    href="#"
-                    >Action</a
+                    >subversion</a
                   >
                 </li>
               </ul>
@@ -94,19 +102,15 @@
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <li>
                   <a
-                    target="_blank"
-                    href="https://discord.gg/subversion"
                     class="dropdown-item"
-                    href="#"
-                    >Arabic</a
+                    (click)="rtl()"
+                    >العربيه</a
                   >
                 </li>
                 <li>
                   <a
-                    target="_blank"
-                    href="https://discord.gg/subversion"
                     class="dropdown-item"
-                    href="#"
+                    (click)="ltr()"
                     >English</a
                   >
                 </li>
@@ -132,10 +136,18 @@
           <li>
             <a
               target="_blank"
+              href="https://discord.gg/KgcFqX9RMV"
+              class="dropdown-item"
+              >arabia </a
+            >
+          </li>
+
+          <li>
+            <a
+              target="_blank"
               href="https://discord.gg/subversion"
               class="dropdown-item"
-              href="#"
-              >Action</a
+              >subversion</a
             >
           </li>
         </ul>
@@ -160,19 +172,15 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <li>
             <a
-              target="_blank"
-              href="https://discord.gg/subversion"
               class="dropdown-item"
-              href="#"
-              >Arabic</a
+              (click)="rtl()"
+              >العربيه</a
             >
           </li>
           <li>
             <a
-              target="_blank"
-              href="https://discord.gg/subversion"
               class="dropdown-item"
-              href="#"
+              (click)="ltr()"
               >English</a
             >
           </li>

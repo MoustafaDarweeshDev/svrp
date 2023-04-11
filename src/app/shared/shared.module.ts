@@ -5,6 +5,9 @@ import { ContentLayoutComponent } from './components/content-layout/content-layo
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,10 +17,16 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [
     CommonModule,
     RouterModule,
+    HttpClientModule,
+    TranslateModule
   ],
   exports:[
     RouterModule,
-    ContentLayoutComponent
+    ContentLayoutComponent,
   ]
 })
 export class SharedModule { }
+
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
+  return new TranslateHttpLoader(http);
+}
