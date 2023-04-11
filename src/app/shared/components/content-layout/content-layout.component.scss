@@ -2,7 +2,33 @@
   background: url('./../../../../assets/images/bg.jpg');
   // background-size: cover;
   // background-position: center center;
-  height: 100vh;
   background-size: 100% 100%;
   background-attachment: fixed;
+  height: fit-content;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.border-bottom-left {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    width: .5%;
+    height: 3%;
+    background: #FFFFFF;
+    transform: skewY(-10deg);
+}
+
+.border-bottom-right {
+  position: absolute;
+    left: 98%;
+    bottom: 2%;
+    width: .5%;
+    height: 3%;
+    background: #FFFFFF;
+    transform: skewY(-10deg);
+}
+body{
+  background-color: red;
+  width: 100vw!important;
 }
