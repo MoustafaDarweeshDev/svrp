@@ -15,6 +15,7 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { RegionComponent } from './region/region.component';
+import { TierComponent } from './tier/tier.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { RegionComponent } from './region/region.component';
     WishListComponent,
     LoginComponent,
     HomeComponent,
-    RegionComponent
+    RegionComponent,
+    TierComponent
   ],
   imports: [
     RouterModule,

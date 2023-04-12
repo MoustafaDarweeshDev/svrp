@@ -6,6 +6,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LoginComponent } from './login/login.component';
 import { WishListComponent } from './wish-list/wish-list.component';
 import { RegionComponent } from './region/region.component';
+import { TierComponent } from './tier/tier.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,8 @@ const routes: Routes = [
       {path:'contact-us' , component:ContactUsComponent},
       {path:'login' , component:LoginComponent},
       {path:'wishlist' , component:WishListComponent},
-      {path:'region' , component:RegionComponent}
+      {path:'region' , component:RegionComponent},
+      {path:'tier' , component:TierComponent}
     ]
   }
 ];
