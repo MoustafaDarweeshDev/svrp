@@ -1,23 +1,23 @@
 .tier-type{
   cursor: pointer;
-  // width: fit-content;
+  width: fit-content;
   background: radial-gradient(67.55% 87.79% at 48.2% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(62, 82, 106, 0.5), rgba(62, 82, 106, 0.5)), rgba(0, 0, 0, 0.65);
   outline: 1px solid rgba(255, 255, 255, 0.35);
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.35);
   padding: 0rem;
-  // margin-inline: auto;
-  // margin-top: var(--size-500);
+  margin-inline: auto;
+  margin-top: var(--size-500);
   transform: skewX(-5deg);
-  margin: 1.5rem ;
-  // height: 25vh;
-  // max-width: 25%;
+  // margin: 1.5rem ;
+  // min-height: 40vh;
+  width: 100%;
   font-size: 1.5rem;
   transition: all 0.3s;
 }
 
 .tier-type div{
   padding: 0.25rem 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     width: 100%;
     background: radial-gradient(69.37% 87.79% at 46.8% 100%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(62, 82, 106, 0.5), rgba(62, 82, 106, 0.5)), rgba(0, 0, 0, 0.65);
     border: 1px solid rgba(255, 255, 255, 0.35);
@@ -31,7 +31,14 @@ p{
 
 .tier-type:hover{
   outline: 4px solid rgba(255, 255, 255, 0.35);
-  transform: scale(1.2);
+  // transform: scale(1.2);
+  height: fit-content;
+}
+
+.tier-type:hover p{
+  // outline: 4px solid rgba(255, 255, 255, 0.35);
+  // transform: scale(1.2);
+  font-size: 1.1rem;
 }
 
 .header{ font-size: 4rem;}
