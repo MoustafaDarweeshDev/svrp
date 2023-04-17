@@ -3982,19 +3982,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\karem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\svrp\\svrp\\svrp.csproj",
+      "projectUniqueName": "D:\\iti\\projects\\svrp\\svrp\\svrp.csproj",
       "projectName": "svrp",
-      "projectPath": "D:\\Projects\\svrp\\svrp\\svrp.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\svrp\\svrp\\obj\\",
+      "projectPath": "D:\\iti\\projects\\svrp\\svrp\\svrp.csproj",
+      "packagesPath": "C:\\Users\\karem\\.nuget\\packages\\",
+      "outputPath": "D:\\iti\\projects\\svrp\\svrp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4008,8 +4008,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Projects\\svrp\\infrastructure\\infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\svrp\\infrastructure\\infrastructure.csproj"
+            "D:\\iti\\projects\\svrp\\infrastructure\\infrastructure.csproj": {
+              "projectPath": "D:\\iti\\projects\\svrp\\infrastructure\\infrastructure.csproj"
             }
           }
         }
@@ -4062,7 +4062,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
