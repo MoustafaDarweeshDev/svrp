@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\iti\\projects\\svrp\\infrastructure\\infrastructure.csproj": {}
+    "E:\\iti\\Freelance\\svrp\\infrastructure\\infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\iti\\projects\\svrp\\core\\core.csproj": {
+    "E:\\iti\\Freelance\\svrp\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iti\\projects\\svrp\\core\\core.csproj",
+        "projectUniqueName": "E:\\iti\\Freelance\\svrp\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "D:\\iti\\projects\\svrp\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\karem\\.nuget\\packages\\",
-        "outputPath": "D:\\iti\\projects\\svrp\\core\\obj\\",
+        "projectPath": "E:\\iti\\Freelance\\svrp\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\Muhammed Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\Freelance\\svrp\\core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammed Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,17 +71,17 @@
         }
       }
     },
-    "D:\\iti\\projects\\svrp\\infrastructure\\infrastructure.csproj": {
+    "E:\\iti\\Freelance\\svrp\\infrastructure\\infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iti\\projects\\svrp\\infrastructure\\infrastructure.csproj",
+        "projectUniqueName": "E:\\iti\\Freelance\\svrp\\infrastructure\\infrastructure.csproj",
         "projectName": "infrastructure",
-        "projectPath": "D:\\iti\\projects\\svrp\\infrastructure\\infrastructure.csproj",
-        "packagesPath": "C:\\Users\\karem\\.nuget\\packages\\",
-        "outputPath": "D:\\iti\\projects\\svrp\\infrastructure\\obj\\",
+        "projectPath": "E:\\iti\\Freelance\\svrp\\infrastructure\\infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Muhammed Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\Freelance\\svrp\\infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammed Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +95,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\iti\\projects\\svrp\\core\\core.csproj": {
-                "projectPath": "D:\\iti\\projects\\svrp\\core\\core.csproj"
+              "E:\\iti\\Freelance\\svrp\\core\\core.csproj": {
+                "projectPath": "E:\\iti\\Freelance\\svrp\\core\\core.csproj"
               }
             }
           }

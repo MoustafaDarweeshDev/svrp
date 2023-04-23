@@ -26,3 +26,17 @@ D:\iti\projects\svrp\core\obj\Debug\net7.0\refint\core.dll
 D:\iti\projects\svrp\core\obj\Debug\net7.0\core.pdb
 D:\iti\projects\svrp\core\obj\Debug\net7.0\core.genruntimeconfig.cache
 D:\iti\projects\svrp\core\obj\Debug\net7.0\ref\core.dll
+E:\iti\Freelance\svrp\core\bin\Debug\net7.0\core.deps.json
+E:\iti\Freelance\svrp\core\bin\Debug\net7.0\core.runtimeconfig.json
+E:\iti\Freelance\svrp\core\bin\Debug\net7.0\core.dll
+E:\iti\Freelance\svrp\core\bin\Debug\net7.0\core.pdb
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.csproj.AssemblyReference.cache
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.GeneratedMSBuildEditorConfig.editorconfig
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.AssemblyInfoInputs.cache
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.AssemblyInfo.cs
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.csproj.CoreCompileInputs.cache
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.dll
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\refint\core.dll
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.pdb
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\core.genruntimeconfig.cache
+E:\iti\Freelance\svrp\core\obj\Debug\net7.0\ref\core.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\iti\\projects\\svrp\\core\\core.csproj": {}
+    "E:\\iti\\Freelance\\svrp\\core\\core.csproj": {}
   },
   "projects": {
-    "D:\\iti\\projects\\svrp\\core\\core.csproj": {
+    "E:\\iti\\Freelance\\svrp\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iti\\projects\\svrp\\core\\core.csproj",
+        "projectUniqueName": "E:\\iti\\Freelance\\svrp\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "D:\\iti\\projects\\svrp\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\karem\\.nuget\\packages\\",
-        "outputPath": "D:\\iti\\projects\\svrp\\core\\obj\\",
+        "projectPath": "E:\\iti\\Freelance\\svrp\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\Muhammed Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\Freelance\\svrp\\core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammed Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
