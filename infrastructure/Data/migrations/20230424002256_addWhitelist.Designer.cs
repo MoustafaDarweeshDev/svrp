@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using infrastructure.Data;
 
@@ -11,9 +12,11 @@ using infrastructure.Data;
 namespace infrastructure.Data.migrations
 {
     [DbContext(typeof(SvrpContext))]
-    partial class SvrpContextModelSnapshot : ModelSnapshot
+    [Migration("20230424002256_addWhitelist")]
+    partial class addWhitelist
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

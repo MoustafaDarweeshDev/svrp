@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace core.Entities
 {
     public class WhiteListFormPayments
     {
+        [Key]
         public int Id { get; set; }
         public string PaymentId { get; set; }
         public string Discord { get; set; }
@@ -20,4 +22,4 @@ namespace core.Entities
         public DateTime UpdatedAt { get; set; }
     }
 }
-}
+
